@@ -39,21 +39,20 @@ document.addEventListener('DOMContentLoaded', function() {
 			url += encodeURIComponent(term[1])
 			url += '&searchLoc=0&resultOrder=basic&multiwordShowSingle=on'
 		} else if (term[0] == 'ko') {
-			url = ''
 			url = 'https://zkorean.com/dictionary/search_results?word='
 			url += encodeURIComponent(term[1])
 		} else if (term[0] == 'fr') {
-			url = ''
 			url = 'http://www.larousse.fr/dictionnaires/francais/'
 			url += encodeURIComponent(term[1])
 		} else if (term[0] == 'sp') {
-			url = ''
 			url = 'http://www.spanishdict.com/translate/'
 			url += encodeURIComponent(term[1])
 		} else if (term[0] == 'he') {
-			url = ''
 			url = 'http://www.morfix.co.il/'
 			url += encodeURIComponent(term[1])
+        } else if (term[0] == 'zh') {
+            url = 'https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define='
+            url += encodeURIComponent(term[1])
 		} else {
 			url = 'https://translate.google.com/#auto/en/'
 			url += encodeURIComponent(term[1])
