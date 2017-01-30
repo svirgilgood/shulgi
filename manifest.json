@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "Shulgi: The multilingual helper",
+  "description": "Like Shulgi from the 3 millenium, this app can handle many languages",
   "version": "1.0",
 
   "browser_action": {
