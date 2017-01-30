@@ -31,7 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		term = term.split(':');
 		var url = ''
 		console.log(term[0])
-		if (term[0] == 'de') {
+        if (term.length == 1) { 
+			url = 'https://translate.google.com/#auto/en/'
+			url += encodeURIComponent(term[0])
+        } else if (term[0] == 'de') {
 			url = 'https://dict.leo.org/ende/index_de.html#/search='
 			url += encodeURIComponent(term[1])
 			url += '&searchLoc=0&resultOrder=basic&multiwordShowSingle=on'
