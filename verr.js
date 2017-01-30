@@ -13,6 +13,15 @@ function getContentFromClipboard() {
     return result;
 };
 
+function openGoogleTranslate () {
+	clipboardContent = getContentFromClipboard();
+		var url = 'https://translate.google.com/#auto/en/'; 
+		url += encodeURIComponent(clipboardContent)
+		console.log(url);
+		chrome.tabs.create({url: url});
+	return false; // prevent the default handler from running.
+		};
+
 
 document.addEventListener('DOMContentLoaded', function() {
 	var getWordLookup = document.getElementById('define')
@@ -29,26 +38,24 @@ document.addEventListener('DOMContentLoaded', function() {
 		console.log(myText.value)
 		term = myText.value
 		term = term.split(':');
-		var url = ''
-		console.log(term[0])
-		if (term[0] == 'de') {
+		var url = '';
+        if (term.length == 1) {
+			url = 'https://translate.google.com/#auto/en/'
+			url += encodeURIComponent(term[0])
+        } else if (term[0] == 'de') {
 			url = 'https://dict.leo.org/ende/index_de.html#/search='
 			url += encodeURIComponent(term[1])
 			url += '&searchLoc=0&resultOrder=basic&multiwordShowSingle=on'
 		} else if (term[0] == 'ko') {
-			url = ''
 			url = 'https://zkorean.com/dictionary/search_results?word='
 			url += encodeURIComponent(term[1])
 		} else if (term[0] == 'fr') {
-			url = ''
 			url = 'http://www.larousse.fr/dictionnaires/francais/'
 			url += encodeURIComponent(term[1])
 		} else if (term[0] == 'sp') {
-			url = ''
 			url = 'http://www.spanishdict.com/translate/'
 			url += encodeURIComponent(term[1])
 		} else if (term[0] == 'he') {
-			url = ''
 			url = 'http://www.morfix.co.il/'
 			url += encodeURIComponent(term[1])
 		} else {
@@ -64,7 +71,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
 	var getTranslationButton = document.getElementById('getTranslation')
-	getTranslationButton.addEventListener('click', function () {
+	getTranslationButton.addEventListener('click', openGoogleTranslate())
+});
+
+/*
 		clipboardContent = getContentFromClipboard();
 		var url = 'https://translate.google.com/#auto/en/'; 
 		url += encodeURIComponent(clipboardContent)
@@ -73,3 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	return false; // prevent the default handler from running.
 		})
 	});
+    */
+
+chrome.commands.onCommand.addListener(openTranslate openGoogleTranslation())
+    
