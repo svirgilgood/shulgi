@@ -22,6 +22,16 @@ German (de), Korean (ko), French (fr), Hebrew (he), Chinese (zh), and
 Spanish(sp). To use the language codes, seperate the language code from the
 search term with a colon(:).Like: `de: Hallo`, or `sp: hola`. 
 
+## Installing
+
+Hopefully soon this extension will soon be available in the Chrome Store, but
+for the time being download the tar ball from github, put the resulting folder
+in a convenient directory, and open Chrome. In the address bar type
+`chrome://extensions`. Enable developer mode, and chose load extension from
+file. Everytime Chrome opens a new window, you will get a warning about this
+extension not being approved. That can't be avoided until the app is released
+through the app store. 
+
 ## About Shulgi 
 
 ## Sources Harvested 

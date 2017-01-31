@@ -12,7 +12,8 @@
   "commands": {
       "openTranslate" : {
           "default" : "Alt+Shfift+U"
-      }
+      },
+      "description" : "Open Google Translate"
   },
   "_execute_browswer_action": {
       "suggested_key": {
