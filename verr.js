@@ -110,7 +110,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <<<<<<< HEAD
     */
 
-// chrome.commands.onCommand.addListener(openTranslate openGoogleTranslation())
+chrome.commands.onCommand.addListener(function (command) {
+    openGoogleTranslate()
+});
+    
     
 
 document.addEventListener('DOMContentLoaded', function() {
