@@ -19,7 +19,8 @@ be generated defining it in Google Translate. You can specify a language using
 ISO langauge codes, and then tabs will be generated in the dictionaries that
 have been chosen by the developer. This chrome extension currently supports:
 German (de), Korean (ko), French (fr), Hebrew (he), Chinese (zh), and
-Spanish(sp). 
+Spanish(sp). To use the language codes, seperate the language code from the
+search term with a colon(:).Like: `de: Hallo`, or `sp: hola`. 
 
 ## About Shulgi 
 
