@@ -83,6 +83,7 @@ function defineWord() {
     return false;
 };
 
+
 document.addEventListener('DOMContentLoaded', function() {
 	var getWordLookup = document.getElementById('define')
 
@@ -91,7 +92,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }) 
 });
 
-	
 
 document.addEventListener('DOMContentLoaded', function() {
 	var getTranslationButton = document.getElementById('getTranslation')
@@ -99,21 +99,12 @@ document.addEventListener('DOMContentLoaded', function() {
         openGoogleTranslate()
     });
 });
-/*
- * To Do:
- * a help HTML page. 
- * integrate the JSON object into the code
- * add additional dictionaries
- * add a page to add dictionaries to the JSON object
- */
-
 
 
 chrome.commands.onCommand.addListener(function (command) {
     console.log('Command: ' + command)
     openGoogleTranslate()
 });
-    
     
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -125,4 +116,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+/*
+ * To Do:
+ * a help HTML page. 
+ * integrate the JSON object into the code
+ * add additional dictionaries
+ * add a page to add dictionaries to the JSON object
+ */
 
