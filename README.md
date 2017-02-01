@@ -50,7 +50,7 @@ he talks about his education in the scribal schools:
 >      tutelage in the scribal art, I qualified fully in subtraction,
 >      addition, reckoning and accounting. The fair Nanibgal, Nisaba, provided
 >      me amply with knowledge and comprehension. I am an experienced scribe
->      who does not neglect a thing 
+>      who does not neglect a thing (ETCSL)
 
 But not only could he write the languages of Sumerian and Akkadian (the
 languages of ancient Southern Mesopotamia), Shulgi also new all of the
@@ -65,7 +65,8 @@ languages of his world:
 >    distinguish the words in his language, although I am not a fellow-citizen
 >    of his. When I provide justice in the legal cases of Sumer, I give
 >    answers in all five languages. In my palace no one in conversation
->    switches to another language as quickly as I do.                                                                                                                                  
+>    switches to another language as quickly as I do. (ETCSL)
+
 Shulgi is a fascinating king of the ancient Near East, and one worthy of
 intense study! 
 
@@ -73,8 +74,8 @@ intense study!
 
 I used the [official Google tutorial][chrometut] to make a simple chrome
 extension.  Also, referencing this tutorial,[which promises to make an
-extension in 10 minutes][tenmin]. But [this gist][clipboardgist] was invaluable for getting the
-Chrome to play nicely with the clipboard.
+extension in 10 minutes][tenmin]. But [this gist][clipboardgist] was
+invaluable for getting Chrome to play nicely with the clipboard.
 
 [GitZip]: https://github.com/e2dubba/shulgi/archive/master.zip "Github Zip file"
 [ShulgiW]: https://en.wikipedia.org/wiki/Shulgi "Shulgi Wikipedia"
