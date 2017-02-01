@@ -23,7 +23,7 @@ function openGoogleTranslate () {
 	return false; // prevent the default handler from running.
 };
 
-
+/*
 var dictionaryUrlLookup = {
     'de' : `https://dict.leo.org/ende/index_de.html#/search=${term}&searchLoc=0&resultOrder=basic&multiwordShowSingle=on`,
     'nl' : '',
@@ -42,7 +42,7 @@ var dictionaryUrlLookup = {
     'sv' : '',
     'el' : '',
 };
-
+*/
 
 
 function defineWord() {
@@ -113,6 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
     */
 
 chrome.commands.onCommand.addListener(function (command) {
+    console.log('Command: ' + command)
     openGoogleTranslate()
 });
     
