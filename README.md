@@ -73,8 +73,7 @@ languages of his world:
 >    answers in all five languages. In my palace no one in conversation
 >    switches to another language as quickly as I do. (ETCSL)
 
-Shulgi is a fascinating king of the ancient Near East, and one worthy of
-intense study! 
+Shulgi is a fascinating king of the ancient Near East, and one worthy of study! 
 
 ## Sources Harvested 
 
