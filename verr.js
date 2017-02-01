@@ -95,7 +95,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
 	var getTranslationButton = document.getElementById('getTranslation')
-	getTranslationButton.addEventListener('click', openGoogleTranslate())
+	getTranslationButton.addEventListener('click', function () {
+        openGoogleTranslate()
+    });
 });
 
 /*
