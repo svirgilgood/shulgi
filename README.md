@@ -22,6 +22,12 @@ German (de), Korean (ko), French (fr), Hebrew (he), Chinese (zh), and
 Spanish (sp). To use the language codes, seperate the language code from the
 search term with a colon(:).Like: `de: Hallo`, or `sp: hola`. 
 
+Shulgi also supports keyboard shortcuts. On Windows `Ctrl+Shift+U` will open
+the popup html file. And `Ctrl+Shift+Y` will open Google Translate with
+whatever is in the clipboard. For Mac, just use the `Cmd` key. Both of these
+keyboard shortcuts can by combined: Hold down `Ctrl+Shift`, and then press `U` 
+and then `Y` and Shulgi will open the Google Translate page. 
+
 ## Installing
 
 Soon this extension will soon be available in the Chrome Store, but
@@ -76,6 +82,7 @@ I used the [official Google tutorial][chrometut] to make a simple chrome
 extension.  Also, referencing this tutorial,[which promises to make an
 extension in 10 minutes][tenmin]. But [this gist][clipboardgist] was
 invaluable for getting Chrome to play nicely with the clipboard.
+
 
 [GitZip]: https://github.com/e2dubba/shulgi/archive/master.zip "Github Zip file"
 [ShulgiW]: https://en.wikipedia.org/wiki/Shulgi "Shulgi Wikipedia"

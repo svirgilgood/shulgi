@@ -99,18 +99,15 @@ document.addEventListener('DOMContentLoaded', function() {
         openGoogleTranslate()
     });
 });
-
 /*
-		clipboardContent = getContentFromClipboard();
-		var url = 'https://translate.google.com/#auto/en/'; 
-		url += encodeURIComponent(clipboardContent)
-		console.log(url);
-		chrome.tabs.create({url: url});
-	return false; // prevent the default handler from running.
-		})
-	});
-<<<<<<< HEAD
-    */
+ * To Do:
+ * a help HTML page. 
+ * integrate the JSON object into the code
+ * add additional dictionaries
+ * add a page to add dictionaries to the JSON object
+ */
+
+
 
 chrome.commands.onCommand.addListener(function (command) {
     console.log('Command: ' + command)
