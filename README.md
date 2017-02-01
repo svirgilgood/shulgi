@@ -42,15 +42,15 @@ the material written by Shulgi and his court is praise for his idealness as a
 ruler. Shulgi is unique among the ANE kings in that he brags bout his scribal
 abilities as well as his military exploits. In lines 10-20 of Shulgi Hymn B,
 he talks about his education in the scribal schools:
->      (11-20) I am a king, offspring begotten by a king and borne by a queen.
->      I, Šulgi the noble, have been blessed with a favourable destiny right
->      from the womb. When I was small, I was at the academy, where I learned
->      the scribal art from the tablets of Sumer and Akkad. None of the nobles
->      could write on clay as I could. There where people regularly went for
->      tutelage in the scribal art, I qualified fully in subtraction,
->      addition, reckoning and accounting. The fair Nanibgal, Nisaba, provided
->      me amply with knowledge and comprehension. I am an experienced scribe
->      who does not neglect a thing (ETCSL)
+>    (11-20) I am a king, offspring begotten by a king and borne by a queen.
+>    I, Šulgi the noble, have been blessed with a favourable destiny right
+>    from the womb. When I was small, I was at the academy, where I learned
+>    the scribal art from the tablets of Sumer and Akkad. None of the nobles
+>    could write on clay as I could. There where people regularly went for
+>    tutelage in the scribal art, I qualified fully in subtraction,
+>    addition, reckoning and accounting. The fair Nanibgal, Nisaba, provided
+>    me amply with knowledge and comprehension. I am an experienced scribe
+>    who does not neglect a thing (ETCSL)
 
 But not only could he write the languages of Sumerian and Akkadian (the
 languages of ancient Southern Mesopotamia), Shulgi also new all of the
