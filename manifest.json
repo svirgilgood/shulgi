@@ -19,8 +19,8 @@
           },
           "_execute_browser_action": {
             "suggested_key": {
-              "windows": "Ctrl+Shift+Y",
-              "mac": "Command+Shift+Y",
+              "windows": "Ctrl+Shift+U",
+              "mac": "Command+Shift+U",
               "chromeos": "Ctrl+Shift+U",
               "linux": "Ctrl+Shift+J"
             }
