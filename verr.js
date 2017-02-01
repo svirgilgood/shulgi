@@ -25,22 +25,22 @@ function openGoogleTranslate () {
 
 /*
 var dictionaryUrlLookup = {
-    'de' : `https://dict.leo.org/ende/index_de.html#/search=${term}&searchLoc=0&resultOrder=basic&multiwordShowSingle=on`,
-    'nl' : '',
+    'de' : `https://dict.leo.org/ende/index_de.html#/search=${querry}&searchLoc=0&resultOrder=basic&multiwordShowSingle=on`,
+    'nl' : `http://www.vandale.nl/opzoeken?pattern=${querry}&lang=ne`,
     'ko' : 'https://zkorean.com/dictionary/search_results?word=',
     'fr' : 'http://www.larousse.fr/dictionnaires/francais/',
     'sp' : 'http://www.spanishdict.com/translate/', 
     'he' : 'http://www.morfix.co.il/',
     'zh' : 'https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=',
-    'ru' : '',
+    'ru' : `http://www.multitran.ru/c/M.exe?l1=1&l2=2&s=+${querry},
     'pt' : '',
     'bpt' : '',
-    'ar' : '',
+    'ar' : `http://www.egyptianarabicdictionary.com/online/search.php?ui=en&language=EG&key=${querry}&action=s`,
     'wkt' : '',
-    'log' : '',
+    'log' : `http://logeion.uchicago.edu/index.html#${querry}`,
     'da' : '',
     'sv' : '',
-    'el' : '',
+    'el' : '', //I'm not sure there is one.
 };
 */
 
