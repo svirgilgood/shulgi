@@ -11,7 +11,8 @@ function defineWord() {
         url = 'https://translate.google.com/#auto/en/'
         url += encodeURIComponent(term[0])
     } else {
-        var querry = term[1]
+        var querry = encodeURIComponent(term[1])
+            var jsondictionary =
     } else {
         url = 'https://translate.google.com/#auto/en/'
         url += encodeURIComponent(term[1])
