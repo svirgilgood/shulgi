@@ -65,7 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
 /*
  * To Do:
  * a help HTML page. 
- * integrate the JSON object into the code
  * add a page to add dictionaries to the JSON object
  */
 
