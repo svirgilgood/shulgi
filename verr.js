@@ -11,10 +11,18 @@ function defineWord() {
         url = 'https://translate.google.com/#auto/en/'
         url += encodeURIComponent(term[0])
     } else {
-        var querry = term[1]
-    } else {
-        url = 'https://translate.google.com/#auto/en/'
-        url += encodeURIComponent(term[1])
+        var querry = encodeURIComponent(term[1].trim());
+        url = jsonurl[term[0]]
+        try {
+            url = url.replace("{{s}}", querry);
+        } catch (e) {
+            if (e instanceof TypeError) {
+            url = 'https://translate.google.com/#auto/en/'
+            url += encodeURIComponent(term[1])
+            } else {
+                console.log(term.join(' '))
+            };
+        };
     };
     chrome.tabs.create({ url: url });
     return false;
