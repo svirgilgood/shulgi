@@ -9,10 +9,15 @@
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
+  "background": {
+      "scripts": ["eventpage.js"],
+      "persistant": false
+  },
        "commands": {
           "openGoogleTranslate": {
             "suggested_key": {
               "default": "Ctrl+Shift+Y",
+              "linux": "Ctrl+Shift+Y",
               "mac": "Command+Shift+Y"
             },
             "description": "Toggle feature foo"
@@ -22,7 +27,7 @@
               "windows": "Ctrl+Shift+U",
               "mac": "Command+Shift+U",
               "chromeos": "Ctrl+Shift+U",
-              "linux": "Ctrl+Shift+J"
+              "linux": "Ctrl+Shift+U"
             }
           }
         },
