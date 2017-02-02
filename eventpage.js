@@ -26,5 +26,7 @@ function openGoogleTranslate () {
 
 chrome.commands.onCommand.addListener(function (command) {
     console.log('Command: ' + command)
-    openGoogleTranslate()
+    if (command == 'openGoogleTranslate') {
+        openGoogleTranslate()
+    };
 });

@@ -45,11 +45,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
+/*
 chrome.commands.onCommand.addListener(function (command) {
     console.log('Command: ' + command)
     openGoogleTranslate()
 });
+*/
     
 
 document.addEventListener('DOMContentLoaded', function() {
