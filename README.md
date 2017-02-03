@@ -47,7 +47,7 @@ To read more about Shulgi, [see ABOUT.md](ABOUT.md).
 ## Sources Harvested 
 
 I used the [official Google tutorial][chrometut] to make a simple chrome
-extension.  Also, referencing this tutorial,[which promises to make an
+extension.  Also, referencing this tutorial, [which promises to make an
 extension in 10 minutes][tenmin]. But [this gist][clipboardgist] was
 invaluable for getting Chrome to play nicely with the clipboard.
 
