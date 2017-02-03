@@ -16,7 +16,7 @@ extensions icon. Then on the extensions popup menu click the button that says
 To look up a word you can type it into the text box and hit the return key, or
 the button marked "Define!". If no language code is specified, a new tab will
 be generated defining it in Google Translate. You can specify a language using
-ISO langauge codes, and then tabs will be generated in the dictionaries that
+[ISO langauge codes][iso], and then tabs will be generated in the dictionaries that
 have been chosen by the developer. This chrome extension currently supports:
 German (de), Korean (ko), French (fr), Hebrew (he), Chinese (zh), and
 Spanish (sp). To use the language codes, seperate the language code from the
@@ -56,4 +56,4 @@ invaluable for getting Chrome to play nicely with the clipboard.
 [chrometut]: https://developer.chrome.com/extensions/getstarted "Chrome Tutorial"
 [tenmin]: https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/ "Ten Min Tutorial"
 [clipboardgist]: https://gist.github.com/srsudar/e9a41228f06f32f272a2#file-background-js "Gist"
-
+[iso]: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes "ISO Language Codes Wikipedia"

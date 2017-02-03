@@ -54,16 +54,17 @@ languages of [Subartu][subartu], but he also knows the languages of Elam
 (present day Iran), and the language of the far West (which he calls Martu).
 Subartu (or Sabir as spelled in the ETCSL translation) was a country in
 Northern Mesopotamia, and we don't know much about the language or the
-culture. Elam is a pretty well attested culture, though the language itself is
-not well understood, the texts are readable however though because they used
-the same logograms as Sumerian. The language of Martu was Amorite, a language
-group of Northwest Semitic languages (languages related to Hebrew and others).
-Scholarly knowledge of Amorite comes mostly through personal names especially
-from cities like [Mari][mari]. One interesting feature in this section is
-Shulgi's weaving traditional royal inscriptions themes with his interest in
-promoting is linguistic skills. A very common theme in ANE Royal Inscriptions
-is promoting the king as an establisher of justice. In this passage Shulgi
-weaves his linguistic acumen into his claim of being a wise and just ruler. 
+culture. Elam is a pretty well attested culture, though the [language
+itself][elamite] is not well understood, the texts are readable however though
+because they used the same logograms as Sumerian. The language of Martu was
+[Amorite][amorite], a language group of Northwest Semitic languages (languages
+related to Hebrew and others).  Scholarly knowledge of Amorite comes mostly
+through personal names especially from cities like [Mari][mari]. One
+interesting feature in this section is Shulgi's weaving traditional royal
+inscriptions themes with his interest in promoting is linguistic skills. A very
+common theme in ANE Royal Inscriptions is promoting the king as an establisher
+of justice. In this passage Shulgi weaves his linguistic acumen into his claim
+of being a wise and just ruler. 
 
 Shulgi claims he could switch languages with ease. This is the reason the app
 as this name. No app can switch languages as quickly as this one can! 
