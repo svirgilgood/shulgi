@@ -8,8 +8,12 @@ function defineWord() {
     var url = ''
     console.log(term[0])
     if (term.length == 1) { 
-        url = 'https://translate.google.com/#auto/en/'
-        url += encodeURIComponent(term[0])
+        if (term == 'help') {
+            url = 'config.html';
+        } else {
+            url = 'https://translate.google.com/#auto/en/'
+            url += encodeURIComponent(term[0])
+        }
     } else {
         var querry = encodeURIComponent(term[1].trim());
         url = jsonurl[term[0]]
