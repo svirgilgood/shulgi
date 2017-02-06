@@ -1,16 +1,17 @@
 # About Shulgi 
-This app is named after the URIII king, Shulgi. He reigned over the region of
+This app is named after the UR III king, Shulgi. He reigned over the region of
 Southern Mesopotamia during the late third millennium. But why name an app that
 aids in languages after him? One thing that is unique in the inscriptions of
-Shulgi is his confidence and proclamations of how great a scholar is.
-Assurbanipal also talks about his ability to read Cuneiform, but not to the
+Shulgi is his confidence and proclamations of how great a scholar he is.
+Assurbanipal also talks about his ability to read cuneiform, but not to the
 same extent that Shugli does. The wikipedia article on [Shulgi][ShulgiW] is a
-great place to start. Many of the literature written about Shulgi is available
-through the Electronic Text Corpus of the Sumerian Literature ([ETCSL][etcsl]). 
+great place to start. Many of the literature written during Shulgi's time
+about him is available through the Electronic Text Corpus of the Sumerian
+Literature ([ETCSL][etcsl]). 
 
 ## Education 
 
-The text that inspires the name for this app is the [Shulgi Hymn B][ShulgiB].
+The text that inspires the name for this app is [Shulgi Hymn B][ShulgiB].
 Like many ancient Near Eastern kings, much of the material written by Shulgi
 and his court is praise for his ideal-ness as a ruler. In order to show how
 ideal of a ruler he is, he starts with a biography including his early life
@@ -34,7 +35,7 @@ the scribal schools were Akkadian and Sumerian.
 ## Languages of Shulgi
 
 But not only could he write the languages of Sumerian and Akkadian (the
-languages of ancient Southern Mesopotamia), Shulgi also new all of the
+languages of ancient Southern Mesopotamia), Shulgi also knew all of the
 languages of his world: 
 >    (206-220) When I …… like a torrent with the roar of a great storm, in the
 >    capture of a citadel in Elam ……, I can understand what their spokesman
