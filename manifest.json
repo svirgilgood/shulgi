@@ -18,14 +18,14 @@
             "suggested_key": {
               "default": "Ctrl+Shift+Y",
               "linux": "Ctrl+Shift+Y",
-              "mac": "Command+Shift+Y"
+              "mac": "MacCtrl+Shift+Y"
             },
             "description": "Toggle feature foo"
           },
           "_execute_browser_action": {
             "suggested_key": {
-              "windows": "Ctrl+Shift+U",
-              "mac": "Command+Shift+U",
+              "default": "Ctrl+Shift+U",
+              "mac": "MacCtrl+Shift+U",
               "chromeos": "Ctrl+Shift+U",
               "linux": "Ctrl+Shift+U"
             }
