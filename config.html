@@ -17,8 +17,35 @@
     </style>
 </head>
 <body>
-    <button id="CreateTable">Create Table From JSON</button>
-    <div id="showData"></div>
+    <div>
+        <p>
+        To retrive text that has been copied into the system clipboard, click on the
+        extensions icon. Then on the extensions popup menu click the button that says
+        "Get Translation!". A new tab will be generated with the text in Google Translate. 
+        </p>
+        <p>
+        To look up a word you can type it into the text box and hit the return key, or
+        the button marked "Define!". If no language code is specified, a new tab will
+        be generated defining it in Google Translate. You can specify a language using
+        <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO langauge codes</a>, 
+        and then tabs will be generated in the dictionaries that
+        have been chosen by the developer. This chrome extension currently supports:
+        German (de), Korean (ko), French (fr), Hebrew (he), Chinese (zh), and
+        Spanish (sp). To use the language codes, seperate the language code from the
+        search term with a colon(:). Like: <tt>de: Hallo</tt>, or <tt>sp: hola</tt>. 
+        </p>
+        <p>
+            <button id="CreateTable">Show Codes</button>
+            <div id="showData"></div>
+        </p>
+        <p>
+        Shulgi also supports keyboard shortcuts. On Windows <tt>Ctrl+Shift+U</tt> will open
+        the popup html file. And <tt>Ctrl+Shift+Y</tt> will open Google Translate with
+        whatever is in the clipboard. For Mac, just use the <tt>Cmd</tt> key. Both of these
+        keyboard shortcuts can by combined: Hold down <tt>Ctrl+Shift</tt>, and then press <tt>U</tt> 
+        and then <tt>Y</tt> and Shulgi will open the Google Translate page. 
+        </p>
+    </div>
 </body>
 <script src="config.js"></script>
 <script src="table.js"></script>
