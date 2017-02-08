@@ -9,7 +9,7 @@ function defineWord() {
     console.log(term[0])
     if (term.length == 1) { 
         if (term == 'help') {
-            url = 'config.html';
+            url = 'help.html';
         } else {
             url = 'https://translate.google.com/#auto/en/'
             url += encodeURIComponent(term[0])
