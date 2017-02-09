@@ -1,6 +1,6 @@
     function createTableFromJSON() {
 	    // copied from http://www.encodedna.com/javascript/populate-json-data-to-html-table-using-javascript.htm
-        var myConfig = [jsonurl];
+        var myConfig = [localStorage];
 
         // CREATE DYNAMIC TABLE.
         var table = document.createElement("table"); // !
@@ -21,7 +21,7 @@
             var tabcell = tr.insertCell(-1)
                 tabcell.innerHTML = key;
             var tabcell2 = tr.insertCell(-1)
-                var urlarray = jsonurl[key].split('/')
+                var urlarray = localStorage[key].split('/')
                 var urltext = urlarray[2]
                 tabcell2.innerHTML = '<a href="'+urlarray[0]+'//'+urltext+'">'+urltext+'</a>'
             }
@@ -32,7 +32,7 @@
         divContainer.appendChild(table);
     }
 
-
+/*
 function addToConfig () {
     var isoCode = document.getElementById('ISOcode')
         isoCode = isoCode.value;
@@ -46,6 +46,17 @@ function addToConfig () {
     xhr.send();
     urljson[isoCode] = urlString
 }
+*/
+
+function addToConfig () {
+    var isoCode = document.getElementById('ISOcode')
+        isoCode = isoCode.value;
+    var urlString = document.getElementById('URLwithSubString')
+        urlString = urlString.value;
+    localStorage[isoCode] = urlString
+    document.getElementById('ISOcode').value = '';
+    document.getElementById('URLwithSubString').value = ''
+}
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -57,7 +68,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    var getConfigVar = document.getElementById('AddPairToConfig', function () {
+    var getConfigVar = document.getElementById('AddPairToConfig')
+   getConfigVar.addEventListener('click', function () {
         addToConfig ()
     })
 });

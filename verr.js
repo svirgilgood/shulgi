@@ -1,6 +1,16 @@
+function jsonurltolocalstorage () {
+    listy = [jsonurl];
+    for (var i = 0; i < listy.length; i++) {
+        for (var key in listy[i]) {
+            localStorage[key] = jsonurl[key] 
+        }
+    }
+}
+
 
 function defineWord() {
     var term = '';
+    jsonurltolocalstorage();
     myText = document.getElementById('dummy-text-field');
     console.log(myText.value)
     term = myText.value
@@ -16,7 +26,7 @@ function defineWord() {
         }
     } else {
         var querry = encodeURIComponent(term[1].trim());
-        url = jsonurl[term[0]]
+        url = localStorage[term[0]]
         try {
             url = url.replace("{{s}}", querry);
         } catch (e) {
