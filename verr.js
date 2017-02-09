@@ -71,7 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 /*
  * To Do:
- * a help HTML page. 
- * add a page to add dictionaries to the JSON object
+ * Modify the style of help.html
+ * Make New Logos for app
+ * Modify style of popup.html?
  */
 
