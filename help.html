@@ -66,8 +66,16 @@
         </p>
         <h2>Add Codes and URLs</h2>
         <p>
-        <input id="ISOcode" type="text" autofocus></input>
-        <input id="URLwithSubString" type="text"></input>
+        You can use any code you would like. It would be best to chose somehting that you can 
+        remember, also if you chose one of the existing codes it will overwrite that url.
+        To format the url use <tt>{{s}}</tt> where the search term is placed in the url. For example,
+        you could add DuckDuckGo like: <tt>http://duckduckgo.com/?q={{s}}</tt>. Note some websites will
+        place the search term in the middle of a url, and someother websites handle variables in 
+        a way that will not facilitate being used by this extension.
+        </p>
+        <p>
+        Code:<input id="ISOcode" type="text" size=1 ></input>
+        URL:<input id="URLwithSubString" type="text" size=40></input>
         <button id="AddPairToConfig">Add to Config</button>
         </p>
         </div>

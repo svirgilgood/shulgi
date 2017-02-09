@@ -6,8 +6,9 @@ function getContentFromClipboard() {
     if (document.execCommand('paste')) {
         result = sandbox.value;
         console.log('got value from sandbox: ' + result);
-	result = result.replace(/\-\r?\n/g, '');
+	result = result.replace(/-\r?\n/g, '');
 	result = result.replace(/\r?\n/g, ' ');
+    result = result.replace(/\b- \b/g, '') // This should probably be taken out, but it works for now
     }
     sandbox.value = '';
     return result;
