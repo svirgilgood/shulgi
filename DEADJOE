@@ -1,0 +1,17 @@
+
+*** These modified files were found in JOE when it aborted on Thu Feb  9 05:34:12 2017
+*** JOE was aborted by UNIX signal 1
+
+*** File '/home/echindod3/GitProjects/shulgi/.git/MERGE_MSG'
+Merge branch 'unstable' of https://github.com/e2dubba/shulgi into unstable
+this is some stuffi
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+*** File '(Unnamed)'
+/home/echindod3/GitProjects/LXX/.git/COMMIT_EDITMSG
+/home/echindod3/GitProjects/LXX/.git/MERGE_MSG
+/home/echindod3/GitProjects/shulgi/.git/MERGE_MSG
