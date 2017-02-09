@@ -34,8 +34,17 @@
 
 
 function addToConfig () {
-
-
+    var isoCode = document.getElementById('ISOcode')
+        isoCode = isoCode.value;
+    var urlString = document.getElementById('URLwithSubString')
+        urlString = urlString.value;
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', chrome.extension.getURL('config.json'), true);
+    xhr.onreadystatechange = function() {
+        var urljson = JSON.parse(xhr.responseText);
+    }
+    xhr.send();
+    urljson[isoCode] = urlString
 }
 
 
