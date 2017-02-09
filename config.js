@@ -11,6 +11,7 @@ var jsonurl = {
     "hi" : "http://hindi-english.org/index.php?input={{s}}&trans=Translate&direction=AU",
     "pt" : "http://dictionary.reverso.net/english-portuguese/{{s}}",
     "el" : "https://greek-dictionary.org/search?search={{s}}&searchtype=greek",
+    "ja" : "http://www.romajidesu.com/dictionary/meaning-of-{{s}}.html",
     "wkt" : "https://en.wiktionary.org/wiki/{{s}}",
     "log" : "http://logeion.uchicago.edu/index.html#{{s}}",
     "gre" : "http://logeion.uchicago.edu/index.html#{{s}}",
@@ -24,6 +25,5 @@ var jsonurl = {
 /*
 "da" : "",
     "sv" : "",
-    "el" : "",
     "bpt" : ""
 */
