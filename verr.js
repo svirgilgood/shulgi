@@ -38,7 +38,7 @@ function defineWord() {
             };
         };
     };
-    chrome.tabs.create({ url: url });
+    browser.tabs.create({ url: url });
     return false;
 };
 

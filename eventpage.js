@@ -20,12 +20,12 @@ function openGoogleTranslate () {
 		var url = 'https://translate.google.com/#auto/en/'; 
 		url += encodeURIComponent(clipboardContent)
 		console.log(url);
-		chrome.tabs.create({url: url});
+		browser.tabs.create({url: url});
 	return false; // prevent the default handler from running.
 };
 
 
-chrome.commands.onCommand.addListener(function (command) {
+browser.commands.onCommand.addListener(function (command) {
     console.log('Command: ' + command)
     if (command == 'openGoogleTranslate') {
         openGoogleTranslate()
