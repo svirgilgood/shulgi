@@ -2,7 +2,7 @@ var jsonurl = {
     "de" : "https://dict.leo.org/ende/index_de.html#/search={{s}}&searchLoc=0&resultOrder=basic&multiwordShowSingle=on",
     "nl" : "http://www.vandale.nl/opzoeken?pattern={{s}}&lang=ne",
     "ko" : "https://zkorean.com/dictionary/search_results?word={{s}}",
-    "fr" : "http://www.larousse.fr/dictionnaires/francais/{{s}}",
+    "fr" : "http://www.larousse.fr/dictionnaires/francais-anglais/{{s}}",
     "sp" : "http://www.spanishdict.com/translate/{{s}}",
     "he" : "http://www.morfix.co.il/{{s}}",
     "zh" : "https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define={{s}}",
