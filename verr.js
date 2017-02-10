@@ -45,7 +45,6 @@ function defineWord() {
 
 document.addEventListener('DOMContentLoaded', function() {
 	var getWordLookup = document.getElementById('define')
-
 	getWordLookup.addEventListener('click', function() {
     defineWord() 
     }) 
@@ -73,6 +72,6 @@ document.addEventListener('DOMContentLoaded', function() {
  * To Do:
  * Modify the style of help.html
  * Make New Logos for app
- * Modify style of popup.html?
+ * Modify style of popup.html? or at least a question mark button for help
  */
 
