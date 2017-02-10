@@ -1,13 +1,11 @@
 function createTableFromJSON() {
     // copied from http://www.encodedna.com/javascript/populate-json-data-to-html-table-using-javascript.htm
-    var myConfig = [localStorage];
-
+    // This takes the JSON object `localStorage` and creates a HTML table. 
+    var myConfig = [localStorage]; // this array is used to get the keys to use to call values
     // CREATE DYNAMIC TABLE.
     var table = document.createElement("table"); // !
     document.getElementById('tablePrint').innerHTML = table;
-
     // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
-
     var tr = table.insertRow(-1);                   // TABLE ROW.
     var langcell = tr.insertCell(-1);
     langcell.innerHTML = "ISO Codes";
@@ -33,6 +31,7 @@ function createTableFromJSON() {
 
 /*
 function addToConfig () {
+    // I may try to reuse this code to make config.js into a pure json file
     var isoCode = document.getElementById('ISOcode')
         isoCode = isoCode.value;
     var urlString = document.getElementById('URLwithSubString')
@@ -48,6 +47,7 @@ function addToConfig () {
 */
 
 function addToConfig () {
+    // This takes the input from the text boxes and adds it to the `localStorage` object
     var isoCode = document.getElementById('ISOcode')
         isoCode = isoCode.value;
     var urlString = document.getElementById('URLwithSubString')
@@ -82,3 +82,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
 });
+
+
