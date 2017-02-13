@@ -1,4 +1,7 @@
 function getContentFromClipboard() {
+    // This function uses the text field to get text from the clipboard this 
+    // is kind of a weird work around because of the way Chrome protects users 
+    // but still wants access to the clipboard.
     var result = '';
     var sandbox = document.getElementById('dummy-text-field');
     sandbox.value = '';
@@ -16,6 +19,8 @@ function getContentFromClipboard() {
 
 
 function openGoogleTranslate () {
+    // This gets the clipboard data from the above function and then opens
+    // the corrected data in a google translate page
 	clipboardContent = getContentFromClipboard();
 		var url = 'https://translate.google.com/#auto/en/'; 
 		url += encodeURIComponent(clipboardContent)
