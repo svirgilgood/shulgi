@@ -21,7 +21,7 @@
             var tabcell = tr.insertCell(-1)
                 tabcell.innerHTML = key;
             var tabcell2 = tr.insertCell(-1)
-                var urlarray = localStorage[key].split('/')
+                var urlarray = localStorage[key]//.split('/')
                 var urltext = urlarray[2]
                 tabcell2.innerHTML = '<a href="'+urlarray[0]+'//'+urltext+'">'+urltext+'</a>'
             }
