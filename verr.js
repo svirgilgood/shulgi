@@ -60,6 +60,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
+	var getTranslationButton = document.getElementById('helpIcon')
+	getTranslationButton.addEventListener('click', function () {
+        var url = 'help.html'
+        chrome.tabs.create({ url: url})
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
     var textField = document.getElementById('dummy-text-field')
     textField.addEventListener('keydown', function(e) {
         if (e.keyCode == 13) {
