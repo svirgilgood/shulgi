@@ -67,7 +67,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
 document.addEventListener('DOMContentLoaded', function() {
     var textField = document.getElementById('dummy-text-field')
     textField.addEventListener('keydown', function(e) {
@@ -77,6 +76,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+    var authLook = document.getElementById('authorityLookup')
+    authLook.addEventListener('click', function(e) {
+        var pastetext = getContentFromClipboard();
+        pastetext = encodeURIComponent(pastetext)
+        var viafURL = "http://viaf.org/viaf/search?query=local.names+all+\"{{s}}\"&sortKeys=holdingscount&recordSchema=BriefVIAF".replace('{{s}}', pastetext);
+        var atlaURL = "http://nova.atla.com/admin/workbench/search?product=&type=authority&query=%s&heading=&series=&author=&subject=&class=&lang=&keydate=&id_type=&value=&ed_state=&image=&acqu=&assignee_uid=&x=&x_past=&uid=&created%5Bgte%5D=&created%5Blte%5D=&vid_uid=&changed%5Bgte%5D=&changed%5Blte%5D=".replace('%s', pastetext);
+        chrome.tabs.create({url: viafURL});
+        chrome.tabs.create({url: atlaURL});
+    });
+});
+
+      
 /*
  * To Do:
  * Modify the style of help.html
