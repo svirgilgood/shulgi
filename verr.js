@@ -94,5 +94,6 @@ document.addEventListener('DOMContentLoaded', function () {
  * Modify the style of help.html
  * Make New Logos for app
  * Modify style of popup.html? or at least a question mark button for help
+ * There is a bug, where the json.conf doesn't load until after you use the search box. 
  */
 
