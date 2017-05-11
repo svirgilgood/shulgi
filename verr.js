@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-	var getTranslationButton = document.getElementById('helpIcon')
+	var getTranslationButton = document.getElementById('helpImage')
 	getTranslationButton.addEventListener('click', function () {
         var url = 'help.html'
         chrome.tabs.create({ url: url})
