@@ -1,3 +1,7 @@
+window.onLoad = function () {
+    createTableFromJSON()
+};
+
 function createTableFromJSON() {
     // copied from http://www.encodedna.com/javascript/populate-json-data-to-html-table-using-javascript.htm
     // This takes the JSON object `localStorage` and creates a HTML table. 
@@ -14,6 +18,7 @@ function createTableFromJSON() {
 
         // CREATE DYNAMIC TABLE.
         var table = document.createElement("table"); // !
+        table.classList.add("center");
         document.getElementById('tablePrint').innerHTML = table;
 
 
