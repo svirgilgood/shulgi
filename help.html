@@ -6,13 +6,17 @@
     <style>
         @media (max-width: 960px) {
             div {
-            margin: 10px 100px 30px 100px;
+            margin: 10px auto 30px auto;
             font-size: medium;    
+            }
+            #content {
+                width: 880px;
+                margin: 0 auto;
             }
         }
         @media(min-width: 960px) {
             div {
-                margin: 10px 300px 30px 300px;
+                margin: 10px auto 30px auto;
                 font-size:medium;    
             }
             p {
@@ -25,6 +29,11 @@
             h2 {
                 font-weight:bold;
                 font: 15px ;
+            }
+            #content {
+                max-width: 880px;
+                margin: 0 auto 30px auto;
+                overflow: auto;
             }
         }
         .center {
@@ -46,7 +55,7 @@
     </style>
 </head>
 <body>
-    <div>
+    <div id="content">
         <h1>How to Use Shulgi</h1>
         <h2>Removing New Lines from Clipboard Contents</h2>
         <p>

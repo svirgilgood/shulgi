@@ -76,13 +76,13 @@ function addToConfig () {
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
-	var createtable = document.getElementById('CreateTable');
-    createtable.addEventListener('click', function() {
-        createTableFromJSON()
-    }) 
-});
-
+//document.addEventListener('DOMContentLoaded', function() {
+//	var createtable = document.getElementById('CreateTable');
+//    createtable.addEventListener('click', function() {
+//        createTableFromJSON()
+//    }) 
+//});
+//
 
 document.addEventListener('DOMContentLoaded', function() {
     var getConfigVar = document.getElementById('AddPairToConfig')
