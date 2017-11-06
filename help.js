@@ -1,4 +1,4 @@
-window.onLoad = function () {
+window.onload = function () {
     createTableFromJSON()
 };
 
@@ -8,7 +8,7 @@ function createTableFromJSON() {
     var myConfig = [localStorage]; // this array is used to get the keys to use to call values
     // CREATE DYNAMIC TABLE.
     var table = document.createElement("table"); // !
-    document.getElementById('tablePrint').innerHTML = table;
+    //document.getElementById('tablePrint').innerHTML = table;
     // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
     var tr = table.insertRow(-1);                   // TABLE ROW.
     var langcell = tr.insertCell(-1);
@@ -19,7 +19,7 @@ function createTableFromJSON() {
         // CREATE DYNAMIC TABLE.
         var table = document.createElement("table"); // !
         table.classList.add("center");
-        document.getElementById('tablePrint').innerHTML = table;
+       // document.getElementById('tablePrint').innerHTML = table;
 
 
         // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
