@@ -10,7 +10,7 @@
     "default_popup": "popup.html"
   },
   "background": {
-      "scripts": ["eventpage.js"],
+      "page": "background.html",
       "persistant": false
   },
        "commands": {
@@ -20,11 +20,11 @@
               "linux": "Ctrl+Shift+Y",
               "mac": "MacCtrl+Shift+Y"
             },
-            "description": "Toggle feature foo"
+            "description": "Open Clipboard Contents in Google Translate"
           },
           "_execute_browser_action": {
             "suggested_key": {
-              "default": "Ctrl+Shift+U",
+              "default": "Ctrl+Shift+Y",
               "mac": "MacCtrl+Shift+U",
               "chromeos": "Ctrl+Shift+U",
               "linux": "Ctrl+Shift+U"

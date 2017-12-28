@@ -76,20 +76,34 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-document.addEventListener('DOMContentLoaded', function () {
-    var authLook = document.getElementById('authorityLookup')
-    authLook.addEventListener('click', function(e) {
+
+function getAuthority () {
         var pastetext = getContentFromClipboard();
+        pastetext = pastetext.replace(/\w*: /, '');
+        pastetext = pastetext.replace(/Primary/, '');
         pastetext = encodeURIComponent(pastetext)
         var viafURL = "http://viaf.org/viaf/search?query=local.names+all+\"{{s}}\"&sortKeys=holdingscount&recordSchema=BriefVIAF".replace('{{s}}', pastetext);
         var atlaURL = "http://nova.atla.com/admin/workbench/search?product=&type=authority&query=%s&heading=&series=&author=&subject=&class=&lang=&keydate=&id_type=&value=&ed_state=&image=&acqu=&assignee_uid=&x=&x_past=&uid=&created%5Bgte%5D=&created%5Blte%5D=&vid_uid=&changed%5Bgte%5D=&changed%5Blte%5D=".replace('%s', pastetext);
-        chrome.tabs.create({url: viafURL});
-        chrome.tabs.create({url: atlaURL});
+        chrome.tabs.create({url: atlaURL, "selected":true});
+        chrome.tabs.create({url: viafURL, "selected":false});
+}
+    
+document.addEventListener('DOMContentLoaded', function () {
+    var authLook = document.getElementById('authorityLookup')
+    authLook.addEventListener('click', function(e) {
+        getAuthority();
     });
 });
 
+
+document.addEventListener('keypress', function(e) {
+    if (e.ctrlKey === true && e.code === 'KeyA') {
+        getAuthority();
+    }
+});
       
 /*
+ *
  * To Do:
  * Modify the style of help.html
  * Make New Logos for app
