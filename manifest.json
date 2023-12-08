@@ -1,41 +1,36 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Shulgi: The multilingual helper",
   "description": "Like Shulgi from the 3 millenium, this app can handle many languages",
-  "version": "1.0",
+  "version": "1.1",
 
-  "browser_action": {
+  "action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
   "background": {
-      "scripts": ["eventpage.js"],
-      "persistant": false
+    "service_worker": "eventpage.js",
+    "persistant": false
   },
-       "commands": {
-          "openGoogleTranslate": {
-            "suggested_key": {
-              "default": "Ctrl+Shift+Y",
-              "linux": "Ctrl+Shift+Y",
-              "mac": "Command+Shift+Y"
-            },
-            "description": "Toggle feature foo"
-          },
-          "_execute_browser_action": {
-            "suggested_key": {
-              "windows": "Ctrl+Shift+U",
-              "mac": "Command+Shift+U",
-              "chromeos": "Ctrl+Shift+U",
-              "linux": "Ctrl+Shift+U"
-            }
-          }
-        },
+  "commands": {
+    "openGoogleTranslate": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "linux": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Toggle feature foo"
+    },
+    "_execute_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+U",
+        "mac": "Command+Shift+U",
+        "chromeos": "Ctrl+Shift+U",
+        "linux": "Ctrl+Shift+U"
+      }
+    }
+  },
 
-  "permissions": [
-    "clipboardWrite",
-    "clipboardRead",
-    "activeTab",
-    "https://ajax.googleapis.com/"
-  ]  
+  "permissions": ["clipboardWrite", "clipboardRead", "activeTab"]
 }
